@@ -6,6 +6,20 @@
   box-sizing: border-box;
 }
 
+:root {
+  --font-family: "Signika", sans-serif;
+  --color-primary: #91c788;
+  --color-secondary: #ff8473;
+  --color-settings: #ff9385;
+  --color-secondary-action: #ffc0b8;
+  --color-primary-text: #000;
+  --color-secondary-text: #696969;
+  --color-tertiary-text: #a9a9a9;
+  --color-background: #e5e5e5;
+  --color-typebox: #f4f4f4;
+  --color-icon-background: #fff8ee;
+  --color-mealselection: #eff7ee;
+}
 html {
   font-size: 16px;
 }

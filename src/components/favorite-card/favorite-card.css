@@ -1,0 +1,28 @@
+.fruits {
+  width: 8.25rem;
+  height: 9rem;
+  left: 1.75rem;
+  top: 33.375rem;
+  background-color: #fff2f0;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 1.07rem;
+}
+.vegetables {
+  width: 8.25rem;
+  height: 9rem;
+  left: 1.75rem;
+  top: 33.375rem;
+  background-color: #fff2f0;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 1.07rem;
+}

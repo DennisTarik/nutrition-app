@@ -1,4 +1,4 @@
-.fruits {
+/* .fruits {
   width: 8.25rem;
   height: 9rem;
   left: 1.75rem;
@@ -11,6 +11,8 @@
   flex-direction: column;
   font-weight: 400;
   font-size: 1.07rem;
+  row-gap: 0.8rem;
+  color: #4d0a00;
 }
 .vegetables {
   width: 8.25rem;
@@ -24,5 +26,28 @@
   justify-content: center;
   flex-direction: column;
   font-weight: 400;
-  font-size: 1.07rem;
+  font-size: 1.07;
+  row-gap: 0.8rem;
+  color: #1c3418;
 }
+.snacks {
+  width: 8.25rem;
+  height: 9rem;
+  left: 1.75rem;
+  top: 33.375rem;
+  background-color: #fff2f0;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 1.07;
+  row-gap: 0.8rem;
+  color: #4d3200;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+} */

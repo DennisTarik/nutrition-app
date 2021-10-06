@@ -1,4 +1,4 @@
-import "./favorite-card.css";
+import "./selector.css";
 import favoriteCard from "./selector.html";
 
 export default {

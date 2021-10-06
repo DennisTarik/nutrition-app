@@ -4,19 +4,19 @@
 .tabs-overhead {
   display: grid;
   text-align: center;
+  overflow: hidden;
   grid-template-columns: 1fr 1fr;
   border-radius: 2rem;
+  margin: 1rem;
   color: var(--color-secondary);
   background-color: var(--icon-background);
-  overflow: hidden;
-  margin: 1rem;
 }
 .tabs__tab {
   padding: 1rem;
 }
 .tabs__tab--active {
-  background-color: var(--color-settings);
   color: var(--color-background);
+  background-color: var(--color-settings);
 }
 /* .selector-layout {
   display: flex;

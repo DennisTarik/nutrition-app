@@ -1,4 +1,15 @@
-.selector-layout {
+.tabs-top {
+  display: grid;
+}
+.tabs-overhead {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 2rem;
+  color: var(--color-background);
+  background-color: var(--icon-background);
+}
+/* .selector-layout {
   display: flex;
   text-align: center;
   gap: 0;
@@ -20,4 +31,4 @@
   height: 3rem;
   background: var(--color-settings);
   border-radius: 0 1rem 1rem 0;
-}
+} */

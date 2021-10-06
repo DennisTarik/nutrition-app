@@ -1,9 +1,9 @@
 import "./selector.css";
-import favoriteCard from "./selector.html";
+import story from "./selector.html";
 
 export default {
-  title: "Components/selector",
+  title: "Components/selectors",
   parameters: { layout: "centered" },
 };
 
-export const fruits = () => favoriteCard;
+export const selector = () => story;

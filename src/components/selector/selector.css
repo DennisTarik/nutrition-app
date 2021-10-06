@@ -6,8 +6,17 @@
   text-align: center;
   grid-template-columns: 1fr 1fr;
   border-radius: 2rem;
-  color: var(--color-background);
+  color: var(--color-secondary);
   background-color: var(--icon-background);
+  overflow: hidden;
+  margin: 1rem;
+}
+.tabs__tab {
+  padding: 1rem;
+}
+.tabs__tab--active {
+  background-color: var(--color-settings);
+  color: var(--color-background);
 }
 /* .selector-layout {
   display: flex;

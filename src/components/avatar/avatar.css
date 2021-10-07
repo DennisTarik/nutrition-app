@@ -7,11 +7,11 @@
   display: grid;
   position: absolute;
   place-items: center;
-  border: 2px solid #ffffff;
+  border: 2px solid #fff;
   bottom: 4px;
   right: 20px;
-  padding: 0.375rem;
-  margin: 0.1rem;
+  height: 1.5rem;
+  width: 1.5rem;
   background-color: var(--color-settings);
   border-radius: 50%;
 }

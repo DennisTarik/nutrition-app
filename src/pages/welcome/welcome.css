@@ -1,38 +1,41 @@
 .welcome {
-  height: 50.75rem;
-  width: 23.4375rem;
+  height: 100vh;
   background-color: var(--color-primary);
-  background-image: var(--color-background);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .welcome__title {
+  color: var(--color-background);
   font-size: 4rem;
-  animation: 10s linear fadeIn;
+  animation: 3s infinite ease-in-out alternate fadeIn,
+    6s infinite ease-in-out alternate bounce;
+}
+.welcome__title--h1 {
+  font-size: 3rem;
 }
 
 @keyframes fadeIn {
   from {
-    opacity: 0;
+    opacity: 0.3;
   }
   to {
     opacity: 1;
   }
 }
 
-@keyframes dennis9000 {
+@keyframes bounce {
   0% {
-    color: red;
-  }
-  10% {
-    color: blue;
+    transform: translateY(-4rem);
+    transform: scale(0.7);
   }
   50% {
-    color: yellow;
+    transform: translateY(0);
+    transform: scale(1.2);
   }
   100% {
-    color: green;
+    transform: translateY(4rem);
+    transform: scale(0.7);
   }
 }

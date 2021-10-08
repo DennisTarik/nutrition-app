@@ -1,15 +1,39 @@
 .welcome {
   height: 100vh;
-  width: 100vw;
-  background-color: #1fc8db;
-  background-image: linear-gradient(
-    141deg,
-    #9fb8ad 0%,
-    #1fc8db 51%,
-    #2cb5e8 75%
-  );
+  background-color: var(--color-primary);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.welcome__title {
+  color: var(--color-background);
+  font-size: 4rem;
+  animation: 3s infinite ease-in-out alternate fadeIn,
+    6s infinite ease-in-out alternate bounce,
+    6s infinite ease-in-out alternate scale;
+}
+.welcome__title--h1 {
+  font-size: 3rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-4rem);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(4rem);
+  }
 }

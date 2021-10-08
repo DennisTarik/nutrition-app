@@ -10,7 +10,8 @@
   color: var(--color-background);
   font-size: 4rem;
   animation: 3s infinite ease-in-out alternate fadeIn,
-    6s infinite ease-in-out alternate bounce;
+    6s infinite ease-in-out alternate bounce,
+    6s infinite ease-in-out alternate scale;
 }
 .welcome__title--h1 {
   font-size: 3rem;
@@ -28,14 +29,11 @@
 @keyframes bounce {
   0% {
     transform: translateY(-4rem);
-    transform: scale(0.7);
   }
   50% {
     transform: translateY(0);
-    transform: scale(1.2);
   }
   100% {
     transform: translateY(4rem);
-    transform: scale(0.7);
   }
 }
